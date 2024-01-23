@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #822e81;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+}
+
+.container a {
+  text-decoration: none;
+  color: #f0f2a6;
+  font-family: "Grape Nuts", sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+.container .nav {
+  width: 15%;
+  background-color: #aa6373;
+  height: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  overflow: hidden;
+  color: #aa6373;
+  transition: height 0.3s, color 0.2s;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.container .nav div {
+  margin-left: 3px;
+}
+.container .nav:hover {
+  height: 35px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-items: center;
+  color: #f0f2a6;
+}
+
+.container a ion-icon {
+  font-size: 1.1em;
+  position: relative;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text {
+  width: 50%;
+  text-align: justify;
+  color: #f0f2a6;
+  margin-top: 20px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
